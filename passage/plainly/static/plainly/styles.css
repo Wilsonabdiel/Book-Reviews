@@ -1,3 +1,51 @@
-.plainly{
-    color: rgb(73, 87, 99);
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+nav{
+    background: transparent;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: wavy;
+    color: #9cdfc6;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .introDiv{
+    height:90vh;
+    background-image: url(books.jpg);
+    background-repeat: no-repeat;
+    
+  }
+  .intoHead{
+    margin-top: 15%;
+    color: #04AA6D;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+ 
