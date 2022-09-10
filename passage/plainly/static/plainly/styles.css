@@ -1,10 +1,14 @@
+@font-face {
+  font-family: "Antonio";
+  src: url("\Antonio\static\Antonio-Regular.ttf");
+  src: url("\Antonio\static\Antonio-Regular.ttf") format("tff"),
+  /* url("CustomFont.otf") format("opentype"), */
+  /* url("CustomFont.svg#filename") format("svg"); */
+  }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-nav{
-    background: transparent;
-}
+
 a{
     text-decoration: none;
 }
@@ -36,16 +40,53 @@ ul {
     background-color: #111;
   }
   .introDiv{
+    display:flex;
+    flex-direction: row;
+    font-size: 22px;
     height:90vh;
     background-image: url(books.jpg);
     background-repeat: no-repeat;
     
   }
-  .intoHead{
+  .introHead{
     margin-top: 15%;
-    color: #04AA6D;
+    color: #575c5a;
+ 
+
   }
+.ggg{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 600px;
+
+}
+.text2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vh;
+  margin-top: 20%;
+  margin-left: 50%;
+
+}
+.text3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 0.2;
+  bottom: 10px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 208px;
+}
+.btn button{
+  width: 150px;
+  height: 50px;
+}
   .active {
     background-color: #04AA6D;
   }
- 
